@@ -1,8 +1,6 @@
-# Documentation for Episode Playlist Generator
-
 ## Overview
 
-The **Episode Playlist Generator** is a command-line utility that organizes video files in a directory into a playlist, sorted based on filenames containing season and episode information (e.g., `S1E1`, `S1E2`, etc.). It supports playback through `mpv` or generates scripts to manually start the playlist.
+A command-line utility that organizes video files in a directory into a playlist, sorted based on filenames containing season and episode information (e.g., `S1E1`, `S1E2`, etc.). It supports playback through `mpv` or generates scripts to manually start the playlist.
 
 ## Features
 
@@ -143,11 +141,6 @@ Ensure `mpv` is installed and added to your `PATH`.
 
 ### Invalid Filenames
 Rename files to include `S<Season>E<Episode>` format (e.g., `S1E1.mp4`). Use batch renaming tools if needed.
-
-### mpv-playlist Not Found
-Ensure `mvp-playlist` is added to your `PATH`
-- **Linux/macOS**: Add the installation directory to `$PATH`.
-- **Windows**: Add the directory containing `mpv.exe` to the system `PATH`.
 
 ---
 
